@@ -1,9 +1,5 @@
 {% extends "base.html" %}
 
 {% block content %}
-<ul>
-  {% for href, caption in [('https://news.ycombinator.com/', 'HackerNews'), ('https://www.google.com/', 'Google'), ('https://trello.com/', 'Trello')] %}
-  <li><a href="{{ href }}">{{ caption }}</a></li>
-  {% endfor %}   
-</ul>
+
 {% endblock %}

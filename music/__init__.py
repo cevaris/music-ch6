@@ -9,8 +9,8 @@ db = MongoEngine(app)
 
 def register_blueprints(app):
     # Prevents circular imports
-    from music.views import articles
-    app.register_blueprint(articles)
+    from music.views import music
+    app.register_blueprint(music)
 
 register_blueprints(app)
 
